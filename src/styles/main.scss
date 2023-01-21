@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: calc(100vh - 7rem);
+  text-align: center;
+  margin-top: 7rem;
+}
+
+main {
+  width: 100%;
+}
+
+.secction_content {
+  padding-top: 2rem;
+  padding-bottom: 15rem;
+}
+
+@media (min-width: 800px) {
+  .root {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

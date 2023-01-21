@@ -1,0 +1,151 @@
+/* Estilos para el header */
+
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 7rem;
+  background-color: var(--color_oscuro);
+  overflow: hidden;
+
+  padding: 2rem;
+  z-index: 1;
+}
+
+/* Estilos para el logo */
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .Logo__Figure {
+    width: 15vh;
+    min-width: 10rem;
+    max-width: 25rem;
+    margin-top: 2rem;
+  }
+
+  .Logo__Text {
+    color: var(--color_claro);
+    font-size: 2.2em;
+    font-weight: bold;
+
+    span {
+      color: var(--color_principal);
+    }
+  }
+}
+
+.Logo:hover {
+  text-decoration: none;
+}
+
+/* Estilos para el nav */
+
+.Header__Nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .Header__List {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Header__Item a {
+    font-size: 1.6rem;
+    color: var(--color_claro);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: 0.2s;
+  }
+
+  .Header__Item a:hover {
+    color: var(--color_principal);
+    transition: .2s;
+  }
+
+  display: none;
+}
+
+.full-screan {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  background-color: var(--color_oscuro);
+
+  z-index: 2;
+
+  .btn-clouse {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+  }
+
+  .Header__List {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60%;
+  }
+}
+
+/* Estilos para btn-header */
+
+.btn-header,
+.btn-clouse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: var(--transparent);
+  border: none;
+
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+
+  ion-icon {
+    font-size: 2.4rem;
+    color: var(--color_claro);
+
+    transition: 0.2s;
+  }
+}
+
+.btn-header:hover,
+.btn-clouse:hover {
+  ion-icon {
+    color: var(--color_principal);
+  }
+}
+
+@media (min-width: 800px) {
+  .Logo .Logo__Figure {
+    width: 22vh;
+  }
+
+  .Header__Nav {
+    display: flex;
+  }
+
+  .btn-header,
+  .btn-clouse {
+    display: none;
+  }
+}
