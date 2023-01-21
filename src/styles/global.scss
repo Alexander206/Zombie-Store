@@ -1,0 +1,41 @@
+@import url('./vars.scss');
+
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.Paragraph {
+    font-size: 1.6rem;
+}
+
+.Caption {
+    font-size: 1.8rem;
+}
+
+.Title {
+    font-size: 2.2rem
+}
+
+.Title__General {
+    font-size: 2.4rem;
+}
+
+.App span {
+    font-size: 6rem;
+}

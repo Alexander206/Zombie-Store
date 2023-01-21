@@ -2,7 +2,51 @@
 
 Author: `Jeisson Alexander Gavilán Murcia`
 
-Ejercicio en react
+## Desarrollado con las versiones:
+
+-   Node -> (18.9.0)
+-   NPM -> (8.19.2)
+
+## Tecnologias a usar:
+
+-   ### React
+-   ### Node
+-   ### Babel
+-   ### Sass
+-   ### Webpack
+
+## Iniciar el proyecto en Producción
+
+-   ### `npm run build`
+
+Se deplegará en el puerto puesto por el servidor o en el puerto 8080 dependiendo de la configuración del proyecto a la hora de ejecutarse
+
+## Iniciar proyecto en Desarrollo
+
+-   ### `npm run start`
+
+## Enviar el proyecto a despliegue
+
+-   ### `npm run deploy`
+
+El proyecto se verá en http://localhost:8080
+
+## Lineamientos generales del proyecto
+
+-   ### Enfoque de desarrollo (Mobile First)
+-   ### Sistema de diseño (Aromic Desing)
+
+<img src="https://www.netone.com.ar/documentos/7/381_mobilefirst.png" width ="300px">
+<br>
+<img src="https://miro.medium.com/max/1400/1*fOVQj8dgr1Oobj3Uta24JQ.png" width ="500px">
+
+## Recurso para iconos gratuitos
+
+-   Iconos: https://ionic.io/ionicons
+
+## Recomendaciones para leer el código:
+
+Se recomienda leer desde las páginas, ver los elementos importados y mirar las rutas de importación para encontrar los archivos, si quisieramos buscar los estilos, cada archivo tiene su estilo y hay que recurrir a la misma ruta pero en la carpeta de archivos.
 
 # Getting Started with Create React App
 
