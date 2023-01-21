@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/bit08react/static/css/main.03078354.css",
-    "main.js": "/bit08react/static/js/main.df808f89.js",
+    "main.css": "/bit08react/static/css/main.9b341705.css",
+    "main.js": "/bit08react/static/js/main.94c97108.js",
     "static/js/787.93c83cab.chunk.js": "/bit08react/static/js/787.93c83cab.chunk.js",
+    "static/media/Objetos.svg": "/bit08react/static/media/Objetos.2324fe471e4c3bf7a4fbc3c0cdee35aa.svg",
+    "static/media/Comida.svg": "/bit08react/static/media/Comida.cd65e1c62cbdb7228f2044f43e14a5bf.svg",
+    "static/media/Logo.svg": "/bit08react/static/media/Logo.1570077957a578a9b1ab4bff71f5f888.svg",
+    "static/media/Lugares.svg": "/bit08react/static/media/Lugares.a0d696bb60c7617c51c52000d3efa927.svg",
     "index.html": "/bit08react/index.html",
-    "main.03078354.css.map": "/bit08react/static/css/main.03078354.css.map",
-    "main.df808f89.js.map": "/bit08react/static/js/main.df808f89.js.map",
+    "main.9b341705.css.map": "/bit08react/static/css/main.9b341705.css.map",
+    "main.94c97108.js.map": "/bit08react/static/js/main.94c97108.js.map",
     "787.93c83cab.chunk.js.map": "/bit08react/static/js/787.93c83cab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03078354.css",
-    "static/js/main.df808f89.js"
+    "static/css/main.9b341705.css",
+    "static/js/main.94c97108.js"
   ]
 }
