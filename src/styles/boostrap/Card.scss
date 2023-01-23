@@ -1,0 +1,61 @@
+.card {
+    width: 29rem;
+    background-color: #161616 !important;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #161616;
+
+        .Caption {
+            color: var(--color_principal_claro);
+        }
+
+        .Title__General {
+            color: var(--color_principal_claro);
+        }
+
+        .figure {
+            height: 10rem;
+            width: 100%;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .Paragraph {
+            text-align: center;
+        }
+
+        .price {
+            font-size: 2.6rem;
+            font-weight: bold;
+            color: var(--color_principal);
+        }
+
+        .btn-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--color_principal);
+            font-size: 1.6rem;
+            width: 50%;
+            border: none;
+            padding: 1rem;
+
+            ion-icon {
+                font-size: 2.2rem;
+                margin-right: 1rem;
+            }
+        }
+
+        .btn-card:active,
+        .btn-card:focus {
+            background-color: var(--color_oscuro);
+            box-shadow: none;
+        }
+    }
+}

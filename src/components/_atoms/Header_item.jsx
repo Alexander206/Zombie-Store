@@ -1,8 +1,13 @@
 import React from 'react';
 
-const header_item = ({ link, text }) => {
+const header_item = ({ link, text, home, setHome }) => {
+  const handlerHome = (tipeBtn) => {
+    tipeBtn === 'Home' ? setHome(true) : setHome(false);
+    console.log(home);
+  };
+
   return (
-    <li className='Header__Item'>
+    <li className='Header__Item' onClick={() => handlerHome(text)}>
       <a href={link}>{text}</a>
     </li>
   );

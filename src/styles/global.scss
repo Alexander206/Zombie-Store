@@ -20,11 +20,22 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: var(--color_fondo) !important;
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color_oscuro);
+    border-radius: 5px;
+    height: 70%;
 }
 
 .Paragraph {
     font-size: 1.6rem;
+    text-align: start;
 }
 
 .Caption {

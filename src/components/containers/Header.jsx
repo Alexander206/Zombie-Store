@@ -11,11 +11,10 @@ import HEADER_NAV from '../_molecules/Header_Nav.jsx';
 /* Variables */
 import logo from '../../assets/icons/Logo.svg';
 
-const Header = () => {
+const Header = ({ home, setHome }) => {
   const [stateNav, setStateNav] = useState(false);
 
   const handlerNav = () => {
-    console.log(stateNav);
     setStateNav(!stateNav);
   };
 
@@ -23,7 +22,7 @@ const Header = () => {
     <header className='Header'>
       <HEADER_LOGO logo={logo} />
 
-      <HEADER_NAV stateNav={stateNav} setStateNav={setStateNav} />
+      <HEADER_NAV stateNav={stateNav} setStateNav={setStateNav} home={home} setHome={setHome} />
 
       <button className='btn-header' onClick={handlerNav}>
         <ion-icon name='menu'></ion-icon>

@@ -1,8 +1,13 @@
 import React from 'react';
 
-const Category = ({ img, section, text }) => {
+const Category = ({ img, section, text, home, setHome }) => {
+  const handlerHome = (tipeBtn) => {
+    tipeBtn === 'Home' ? setHome(true) : setHome(false);
+    console.log(home);
+  };
+
   return (
-    <a className='Aside__Category list-group-item-action' href={section}>
+    <a className='Aside__Category list-group-item-action' href={section} onClick={() => handlerHome(text)}>
       <figure className='Aside__Category__Image'>
         <img src={img} alt='' />
       </figure>
