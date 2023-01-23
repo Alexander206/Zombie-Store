@@ -1,8 +1,13 @@
 import React from 'react';
 
-const header_item = ({ link, text, home, setHome }) => {
+const header_item = ({ link, text, home, setHome, stateNav, setStateNav }) => {
+  const handlerNav = () => {
+    setStateNav(!stateNav);
+  };
+
   const handlerHome = (tipeBtn) => {
     tipeBtn === 'Home' ? setHome(true) : setHome(false);
+    handlerNav();
     console.log(home);
   };
 

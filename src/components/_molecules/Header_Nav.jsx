@@ -17,11 +17,39 @@ const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
         <ion-icon name='close-circle'></ion-icon>
       </button>
       <ul className='Header__List'>
-        <HEADER_ITEM link='#' text='Home' home={home} setHome={setHome} />
-        <HEADER_ITEM link='#list-item-1' text='Comida' home={home} setHome={setHome} />
-        <HEADER_ITEM link='#list-item-2' text='Lugares' home={home} setHome={setHome} />
-        <HEADER_ITEM link='#list-item-3' text='Objetos' home={home} setHome={setHome} />
-        <HEADER_ITEM link='#list-item-4' text='Acerca de' home={home} setHome={setHome} />
+        <HEADER_ITEM link='#' text='Home' stateNav={stateNav} setStateNav={setStateNav} home={home} setHome={setHome} />
+        <HEADER_ITEM
+          link='#list-item-1'
+          stateNav={stateNav}
+          setStateNav={setStateNav}
+          text='Comida'
+          home={home}
+          setHome={setHome}
+        />
+        <HEADER_ITEM
+          link='#list-item-2'
+          stateNav={stateNav}
+          setStateNav={setStateNav}
+          text='Lugares'
+          home={home}
+          setHome={setHome}
+        />
+        <HEADER_ITEM
+          link='#list-item-3'
+          stateNav={stateNav}
+          setStateNav={setStateNav}
+          text='Objetos'
+          home={home}
+          setHome={setHome}
+        />
+        <HEADER_ITEM
+          link='#list-item-4'
+          stateNav={stateNav}
+          setStateNav={setStateNav}
+          text='Acerca de'
+          home={home}
+          setHome={setHome}
+        />
       </ul>
     </nav>
   );
