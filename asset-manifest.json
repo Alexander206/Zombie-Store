@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bit08react/static/css/main.fe5cd75a.css",
-    "main.js": "/bit08react/static/js/main.a91e914e.js",
+    "main.css": "/bit08react/static/css/main.66c796e0.css",
+    "main.js": "/bit08react/static/js/main.6c271262.js",
     "static/js/787.93c83cab.chunk.js": "/bit08react/static/js/787.93c83cab.chunk.js",
     "static/media/fondo.jpg": "/bit08react/static/media/fondo.10ee35502ed30d9aae38.jpg",
     "static/media/fondoHome.jpg": "/bit08react/static/media/fondoHome.a5acbd69770d160f8d18.jpg",
@@ -19,12 +19,12 @@
     "static/media/ObjetosCharapter.svg": "/bit08react/static/media/ObjetosCharapter.970df92f8f90721484f0dd7a8c2c35da.svg",
     "static/media/alimento5.svg": "/bit08react/static/media/alimento5.67ba78d1fd78d10424bb.svg",
     "index.html": "/bit08react/index.html",
-    "main.fe5cd75a.css.map": "/bit08react/static/css/main.fe5cd75a.css.map",
-    "main.a91e914e.js.map": "/bit08react/static/js/main.a91e914e.js.map",
+    "main.66c796e0.css.map": "/bit08react/static/css/main.66c796e0.css.map",
+    "main.6c271262.js.map": "/bit08react/static/js/main.6c271262.js.map",
     "787.93c83cab.chunk.js.map": "/bit08react/static/js/787.93c83cab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe5cd75a.css",
-    "static/js/main.a91e914e.js"
+    "static/css/main.66c796e0.css",
+    "static/js/main.6c271262.js"
   ]
 }
