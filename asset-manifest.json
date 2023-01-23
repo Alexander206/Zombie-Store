@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/bit08react/static/css/main.9b341705.css",
-    "main.js": "/bit08react/static/js/main.94c97108.js",
+    "main.css": "/bit08react/static/css/main.6f7fb3e5.css",
+    "main.js": "/bit08react/static/js/main.008b08ec.js",
     "static/js/787.93c83cab.chunk.js": "/bit08react/static/js/787.93c83cab.chunk.js",
+    "static/media/fondo.jpg": "/bit08react/static/media/fondo.10ee35502ed30d9aae38.jpg",
+    "static/media/fondoHome.jpg": "/bit08react/static/media/fondoHome.a5acbd69770d160f8d18.jpg",
+    "static/media/alimento2.svg": "/bit08react/static/media/alimento2.f61fea7d4e6ad596b051.svg",
+    "static/media/alimento6.svg": "/bit08react/static/media/alimento6.db43791507535f615ddb.svg",
     "static/media/Objetos.svg": "/bit08react/static/media/Objetos.2324fe471e4c3bf7a4fbc3c0cdee35aa.svg",
     "static/media/Comida.svg": "/bit08react/static/media/Comida.cd65e1c62cbdb7228f2044f43e14a5bf.svg",
+    "static/media/alimento3.svg": "/bit08react/static/media/alimento3.716e6f7d44a474b2114e.svg",
+    "static/media/alimento4.svg": "/bit08react/static/media/alimento4.6e5f8a213a64d053ebed.svg",
     "static/media/Logo.svg": "/bit08react/static/media/Logo.1570077957a578a9b1ab4bff71f5f888.svg",
+    "static/media/alimento1.svg": "/bit08react/static/media/alimento1.a570fd0e65aa080767ee.svg",
     "static/media/Lugares.svg": "/bit08react/static/media/Lugares.a0d696bb60c7617c51c52000d3efa927.svg",
+    "static/media/LugaresCharapter.svg": "/bit08react/static/media/LugaresCharapter.c21ad257d7cc8da1e1f6a4644c46881d.svg",
+    "static/media/ComidaCharapter.svg": "/bit08react/static/media/ComidaCharapter.4827bcde9b408a7ed02b2de627b02bde.svg",
+    "static/media/ObjetosCharapter.svg": "/bit08react/static/media/ObjetosCharapter.970df92f8f90721484f0dd7a8c2c35da.svg",
+    "static/media/alimento5.svg": "/bit08react/static/media/alimento5.67ba78d1fd78d10424bb.svg",
     "index.html": "/bit08react/index.html",
-    "main.9b341705.css.map": "/bit08react/static/css/main.9b341705.css.map",
-    "main.94c97108.js.map": "/bit08react/static/js/main.94c97108.js.map",
+    "main.6f7fb3e5.css.map": "/bit08react/static/css/main.6f7fb3e5.css.map",
+    "main.008b08ec.js.map": "/bit08react/static/js/main.008b08ec.js.map",
     "787.93c83cab.chunk.js.map": "/bit08react/static/js/787.93c83cab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b341705.css",
-    "static/js/main.94c97108.js"
+    "static/css/main.6f7fb3e5.css",
+    "static/js/main.008b08ec.js"
   ]
 }
