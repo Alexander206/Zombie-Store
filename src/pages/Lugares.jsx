@@ -9,7 +9,7 @@ import DataBase from '../_data/database.json';
 //const imagenes = require.context('../assets/comida', true);
 let Data = DataBase[0].Lugares;
 
-const Lugares = () => {
+const Lugares = ({ list, setaList }) => {
   let products = Data.map((item, i) => (
     <CARD
       key={i}
@@ -18,11 +18,13 @@ const Lugares = () => {
       //img={imagenes(`./${item.img}`)}
       text={item.description}
       price={item.price}
+      list={list}
+      setaList={setaList}
     />
   ));
 
   return (
-    <article id='list-item-2'>
+    <article id='list'>
       <h2 className='Title'>Lugares</h2>
 
       <p className='Paragraph'>

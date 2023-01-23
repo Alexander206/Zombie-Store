@@ -10,7 +10,7 @@ import DataBase from '../_data/database.json';
 
 let Data = DataBase[0].Objetos;
 
-const Objetos = () => {
+const Objetos = ({ list, setaList }) => {
   let products = Data.map((item, i) => (
     <CARD
       key={i}
@@ -19,11 +19,13 @@ const Objetos = () => {
       //img={imagenes(`./${item.img}`)}
       text={item.description}
       price={item.price}
+      list={list}
+      setaList={setaList}
     />
   ));
 
   return (
-    <article id='list-item-3'>
+    <article id='list'>
       <h2 className='Title'>Objetos</h2>
 
       <p className='Paragraph'>

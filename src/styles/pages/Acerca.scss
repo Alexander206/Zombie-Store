@@ -1,0 +1,42 @@
+.Contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 2rem;
+
+    .Title__General {
+        color: var(--color_claro);
+        text-align: center;
+    }
+
+    .Paragraph {
+        color: var(--color_claro);
+        text-align: center;
+        max-width: 60rem;
+    }
+
+    .Title {
+        color: var(--color_principal);
+    }
+
+    .redes_sociales {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 15rem;
+
+        li {
+            list-style: none;
+
+            ion-icon {
+                font-size: 2.2rem;
+                color: var(--color_principal);
+            }
+        }
+    }
+}

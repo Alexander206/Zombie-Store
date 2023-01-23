@@ -2,7 +2,7 @@ import React from 'react';
 
 import HEADER_ITEM from '../_atoms/Header_item.jsx';
 
-const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
+const Header_nav = ({ stateNav, setStateNav, home, setHome, about, setabout, setatienda }) => {
   let classChange = false;
 
   const handlerNav = () => {
@@ -17,7 +17,17 @@ const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
         <ion-icon name='close-circle'></ion-icon>
       </button>
       <ul className='Header__List'>
-        <HEADER_ITEM link='#' text='Home' stateNav={stateNav} setStateNav={setStateNav} home={home} setHome={setHome} />
+        <HEADER_ITEM
+          link='#'
+          text='Home'
+          stateNav={stateNav}
+          setStateNav={setStateNav}
+          home={home}
+          setHome={setHome}
+          about={about}
+          setabout={setabout}
+          setatienda={setatienda}
+        />
         <HEADER_ITEM
           link='#list-item-1'
           stateNav={stateNav}
@@ -25,6 +35,9 @@ const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
           text='Comida'
           home={home}
           setHome={setHome}
+          about={about}
+          setabout={setabout}
+          setatienda={setatienda}
         />
         <HEADER_ITEM
           link='#list-item-2'
@@ -33,6 +46,9 @@ const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
           text='Lugares'
           home={home}
           setHome={setHome}
+          about={about}
+          setabout={setabout}
+          setatienda={setatienda}
         />
         <HEADER_ITEM
           link='#list-item-3'
@@ -41,6 +57,9 @@ const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
           text='Objetos'
           home={home}
           setHome={setHome}
+          about={about}
+          setabout={setabout}
+          setatienda={setatienda}
         />
         <HEADER_ITEM
           link='#list-item-4'
@@ -49,6 +68,9 @@ const Header_nav = ({ stateNav, setStateNav, home, setHome }) => {
           text='Acerca de'
           home={home}
           setHome={setHome}
+          about={about}
+          setabout={setabout}
+          setatienda={setatienda}
         />
       </ul>
     </nav>

@@ -3,7 +3,6 @@ import React from 'react';
 const Category = ({ img, section, text, home, setHome }) => {
   const handlerHome = (tipeBtn) => {
     tipeBtn === 'Home' ? setHome(true) : setHome(false);
-    console.log(home);
   };
 
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Toaster } from 'react-hot-toast';
 
 /* Componentes */
 
@@ -6,13 +7,13 @@ import CARD from '../components/bootstrap/Card';
 
 /* Variables */
 import charapter from '../assets/img/ComidaCharapter.svg';
-import DataBase from '../_data/database.json';
+import dataBase from '../_data/database.json';
 const imagenes = require.context('../assets/comida', true);
 
-let Data = DataBase[0].Comida;
+let data = dataBase[0].Comida;
 
-const Comida = () => {
-  let products = Data.map((item, i) => (
+const Comida = ({ list, setaList }) => {
+  let products = data.map((item, i) => (
     <CARD
       key={i}
       category='Comida'
@@ -20,11 +21,13 @@ const Comida = () => {
       img={imagenes(`./${item.img}`)}
       text={item.description}
       price={item.price}
+      list={list}
+      setaList={setaList}
     />
   ));
 
   return (
-    <article id='list-item-1'>
+    <article id='list'>
       <h2 className='Title'>Comida</h2>
 
       <p className='Paragraph'>
@@ -41,6 +44,8 @@ const Comida = () => {
       </p>
 
       <article className='container_items'>{products}</article>
+
+      <Toaster position='bottom-right' reverseOrder={false} />
     </article>
   );
 };

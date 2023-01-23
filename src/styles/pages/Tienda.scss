@@ -1,0 +1,117 @@
+.Tienda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 70rem;
+    min-height: calc(100vh - 7rem);
+    background-color: var(--color_fondo);
+
+    padding: 2rem;
+
+    .Title {
+        color: var(--color_claro);
+        text-align: center;
+    }
+
+    .Paragraph {
+        color: var(--color_claro);
+        text-align: center;
+        max-width: 60rem;
+
+        strong {
+            color: var(--color_principal);
+        }
+    }
+
+    table {
+        font-size: 1.6rem;
+        background-color: var(--color_oscuro);
+        border: 1px solid var(--color_secundario);
+
+        thead tr th {
+            color: var(--primary);
+            padding: 1rem;
+        }
+
+        tbody tr th {
+            padding: 1rem;
+            color: var(--color_principal_claro);
+            font-weight: bold;
+        }
+
+        tbody tr td {
+            color: var(--color_claro);
+            height: 5rem;
+
+            .btn_list {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 3rem;
+                height: 3rem;
+                background-color: var(--transparent);
+                border: none;
+
+                margin: 0;
+                padding: 0;
+
+                ion-icon {
+                    font-size: 3rem;
+                    color: var(--color_secundario);
+                }
+            }
+
+            .btn_list:hover {
+                box-shadow: none;
+
+                ion-icon {
+                    color: var(--primary);
+                }
+            }
+        }
+
+        tbody tr td:nth-child(3) {
+            display: none;
+        }
+
+        thead tr th:nth-child(3) {
+            display: none;
+        }
+
+        tbody tr td:nth-child(4) {
+            color: var(--color_principal);
+        }
+
+        tbody tr td:last-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .total {
+        background-color: var(--color_principal_claro);
+        color: var(--color_oscuro);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width:800px) {
+    .Tienda {
+        table {
+            tbody tr td:nth-child(3) {
+                display: block;
+            }
+
+            thead tr th:nth-child(3) {
+                display: block;
+            }
+        }
+    }
+}

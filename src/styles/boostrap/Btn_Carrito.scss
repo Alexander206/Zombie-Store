@@ -1,0 +1,27 @@
+.btn-carrito {
+    position: fixed;
+    bottom: 17rem;
+    right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: var(--color_secundario);
+    border: none;
+
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+
+    ion-icon {
+        font-size: 3.4rem;
+    }
+
+    span {
+        background-color: var(--color_principal);
+        font-size: 1.2rem;
+    }
+}
