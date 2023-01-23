@@ -3,7 +3,7 @@ import React from 'react';
 const list_Item = ({ id, name, catogory, price, list, setaList }) => {
   const handlerBtnDelete = () => {
     console.log(id);
-    setaList(list.filter((producto) => producto.id !== Number(id) - 1));
+    setaList(list.filter((producto, i) => i !== Number(id) - 1));
     console.log(list);
   };
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 import '../styles/pages/Tienda.scss';
 
@@ -8,7 +8,6 @@ let listElement;
 let total;
 
 const Tienda = ({ list, setaList }) => {
-
   listElement = list.map((item, i) => (
     <LIST_ITEM
       key={i}
@@ -26,7 +25,7 @@ const Tienda = ({ list, setaList }) => {
   useEffect(() => {
     setaList(list);
     console.log('El estado cambia', list);
-  }, [list]);
+  }, [list, setaList]);
 
   return (
     <main className='Tienda'>
