@@ -41,37 +41,37 @@
         "Lugares": [
             {
                 "name": "Refugios subterráneos",
-                "img": "",
+                "img": "lugar1.jpg",
                 "description": "Estos refugios, construidos para proteger a las personas de eventos catastróficos, son lugares ideales para encontrar refugio y suministros.",
                 "price": 37.86
             },
             {
                 "name": "Zonas radioactivas",
-                "img": "",
+                "img": "lugar2.jpg",
                 "description": "Aunque peligrosas debido a la radiación, estas áreas pueden ser ricas en recursos valiosos como combustible y tecnología avanzada.",
                 "price": 53.12
             },
             {
                 "name": "Instalaciones militares",
-                "img": "",
+                "img": "lugar3.jpg",
                 "description": "Estos lugares pueden tener un gran potencial para encontrar armas y otros suministros militares, pero también pueden ser altamente peligrosos.",
                 "price": 24.56
             },
             {
                 "name": "Central Nuclear",
-                "img": "",
+                "img": "lugar4.jpg",
                 "description": "Estas instalaciones pueden ser ricas en recursos valiosos, pero también pueden ser peligrosas debido a la radiación y los peligros de seguridad.",
                 "price": 15.43
             },
             {
-                "name": "entros de investigación secretos",
-                "img": "",
+                "name": "Centros de investigación secretos",
+                "img": "lugar5.jpg",
                 "description": "Estos lugares pueden contener tecnologías y conocimientos avanzados, pero también pueden ser altamente protegidos y difíciles de acceder.",
                 "price": 48.19
             },
             {
                 "name": "Islas desiertas",
-                "img": "",
+                "img": "lugar6.jpg",
                 "description": "Estos lugares pueden ser ideales para encontrar refugio y suministros, pero también pueden ser aislados y difíciles de viajar.",
                 "price": 14.98
             }
@@ -79,37 +79,37 @@
         "Objetos": [
             {
                 "name": "Kid de Armas",
-                "img": "",
+                "img": "objeto1.jpg",
                 "description": "Estas pueden incluir armas de fuego, cuchillos, arcos y flechas, entre otras.",
                 "price": 47.75
             },
             {
                 "name": "Medios de transporte",
-                "img": "",
+                "img": "objeto2.jpg",
                 "description": "Esto puede incluir bicicletas, motos, vehículos todoterreno, etc.",
                 "price": 59.90
             },
             {
                 "name": "Sistemas de comunicación",
-                "img": "",
+                "img": "objeto3.jpg",
                 "description": "Esto puede incluir radios, teléfonos satélite, etc.",
                 "price": 19.02
             },
             {
                 "name": "Suministros para la construcción",
-                "img": "",
+                "img": "objeto4.jpg",
                 "description": "Esto puede incluir materiales para construir refugios, herramientas de construcción, etc.",
                 "price": 45.62
             },
             {
                 "name": "Ropa y equipo de protección",
-                "img": "",
+                "img": "objeto5.png",
                 "description": "Esto puede incluir ropa a prueba de balas, mascarillas de gas, cascos, etc.",
                 "price": 26.40
             },
             {
                 "name": "Alimentos y suministros de cocina",
-                "img": "",
+                "img": "objeto6.png",
                 "description": "Esto puede incluir comida en conserva, equipo de cocina, etc.",
                 "price": 38.90
             }

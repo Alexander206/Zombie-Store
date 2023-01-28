@@ -6,7 +6,7 @@ import CARD from '../components/bootstrap/Card';
 /* Variables */
 import charapter from '../assets/img/LugaresCharapter.svg';
 import DataBase from '../_data/database.json';
-//const imagenes = require.context('../assets/comida', true);
+const imagenes = require.context('../assets/lugares', true);
 let Data = DataBase[0].Lugares;
 
 const Lugares = ({ list, setaList }) => {
@@ -15,7 +15,7 @@ const Lugares = ({ list, setaList }) => {
       key={i}
       category='Lugares'
       title={item.name}
-      //img={imagenes(`./${item.img}`)}
+      img={imagenes(`./${item.img}`)}
       text={item.description}
       price={item.price}
       list={list}
@@ -28,9 +28,9 @@ const Lugares = ({ list, setaList }) => {
       <h2 className='Title'>Lugares</h2>
 
       <p className='Paragraph'>
-        ¡Explora los rincones más peligrosos del mundo post-apocalíptico con nuestra sección de lugares! En nuestra página, te
-        llevaremos a través de una variedad de lugares únicos, desde ciudades en ruinas hasta refugios subterráneos y zonas
-        radioactivas.
+        ¡Explora los rincones más peligrosos del mundo post-apocalíptico con nuestra sección de lugares! En nuestra
+        página, te llevaremos a través de una variedad de lugares únicos, desde ciudades en ruinas hasta refugios
+        subterráneos y zonas radioactivas.
       </p>
 
       <figure className='Figure_Category'>
@@ -38,9 +38,9 @@ const Lugares = ({ list, setaList }) => {
       </figure>
 
       <p className='Paragraph'>
-        Cada lugar tiene su propia historia y desafíos, y te proporcionaremos toda la información necesaria para prepararte para
-        tu viaje. Además, te ofreceremos consejos y recomendaciones para sobrevivir en estos lugares y encontrar los recursos
-        valiosos que necesitas.
+        Cada lugar tiene su propia historia y desafíos, y te proporcionaremos toda la información necesaria para
+        prepararte para tu viaje. Además, te ofreceremos consejos y recomendaciones para sobrevivir en estos lugares y
+        encontrar los recursos valiosos que necesitas.
       </p>
 
       <p className='Paragraph'>
